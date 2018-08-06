@@ -1,0 +1,50 @@
+.Player {
+  margin: 15px auto;
+  color: #fff;
+}
+.Player span {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 15px;
+  background-color: #3f51b5;
+  font-size: 18px;
+}
+
+.Player:nth-of-type(2) span {
+  background-color: #26a69a;
+}
+
+.Player:nth-of-type(3) span {
+  background-color: #9c27b0;
+}
+
+.Player:nth-of-type(4) span {
+  background-color: #4caf50;
+}
+
+.Player:nth-of-type(5) span {
+  background-color: #f4511e;
+}
+
+.Player__name {
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.Player__score {
+  width: 40px;
+  text-align: center;
+}
+
+.Player__button {
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Player .Player__delete {
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(227, 10, 10);
+}
